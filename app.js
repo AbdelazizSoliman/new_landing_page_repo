@@ -5,7 +5,7 @@ const sections = document.querySelectorAll('section');
 //Build the navigation menu
 const BuildTheNavigationMenu = () => {
   let navUI = ``
-  for (int i = 0; i < sections.length; i++) {
+  for (i = 0; i < sections.length; i++) {
 
     const sectionID = sections[i].getAttribute('id');
     const sectionDataNav = sections[i].dataset.nav;
